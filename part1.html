@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Aviator: Part 1 | Codrops</title>
+    <meta name="description"
+          content="Demo of part 1: The Making of 'The Aviator': Animating a Basic 3D Scene with Three.js"/>
+    <meta name="keywords"
+          content="three.js, webgl, tutorial, game, 3d, animation, airplane, web development, javascript"/>
+    <meta name="author" content="Karim Maaloul for Codrops"/>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700italic' rel='stylesheet'
+          type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/demo.css"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <script type="text/javascript" src="js/TweenMax.min.js"></script>
+    <script type="text/javascript" src="js/three.min.js"></script>
+    <script type="text/javascript" src="js/main_step1.js"></script>
+</head>
+<body>
+
+<div class="game-holder">
+
+    <div class="score" id="score">
+        <div class="score__content" id="dist">
+            <div class="score__label">distance</div>
+            <div class="score__value score__value_dist" id="distValue">000</div>
+        </div>
+        <div class="score__content" id="energy">
+            <div class="score__label">energy</div>
+            <div class="score__value score__value_energy" id="energyValue">
+                <div class="energy-bar" id="energyBar"></div>
+            </div>
+        </div>
+    </div>
+    <div class="world" id="world">
+    </div>
+    <!--<div class="message message&#45;&#45;play" id="playMessage">Play</div>-->
+    <div class="message message--replay" id="replayMessage">Click to Replay</div>
+</div>
+</body>
+</html>
